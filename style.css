@@ -1,0 +1,233 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+}
+.logo{
+    background-image: url("Amazon-pic.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.3px solid white;
+}
+.nav-search:hover{
+    border: 2px solid orangered ;
+}
+/**box2**/
+
+.add-first{
+    font-size: .75rem;
+    margin-left: 1rem;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+
+.nav-search{
+    display: flex;
+    background-color: rgb(98, 83, 112);
+    width: 620px;
+    height: 30px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+.search-select{
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius:3px ;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    background-color: rgb(239, 168, 61);
+}
+
+/* box4,box5*/
+
+
+span{
+    font-size: .75rem;
+}
+.nav-second{
+    font-size:.85rem;
+    font-weight: 700;
+}
+
+/* box6 */
+
+.nav-cart i{
+    font-size: 2rem;
+}
+.nav-cart{
+    font-size: .85rem;
+    font-weight: bolder;
+}
+
+/* nav2 */
+
+.pannel{
+    height: 40px;
+    background-color: #16273a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-order p{
+    display: inline;
+    margin-left: 15px;
+}
+.pannel-order{
+    width: 70%;
+    font-size: .85rem;
+}
+.pannel-deal{
+    font-size: .9rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.pannel-deal:hover{
+    color: rgb(191, 126, 51);
+}
+
+/* hero-section */
+
+.hero-section{
+    background-image: url("hero1.jpg");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg{
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    width: 80%; 
+    margin-bottom: 40px;
+}
+.hero-msg a{
+    color: #1e339d;
+    text-decoration: underline;
+}
+
+/* shop-section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    background-color: wheat;
+    width: 23%;
+    height: 400px;
+    padding: 20px 0px 15px ;
+    margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #1e339d;
+}
+
+/* footer */
+
+footer{
+    margin-top:10px ;
+}
+.footer-1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.footer-2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 25px;
+}
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 15px;
+    color: #dddddd;
+}
+.footer-3{
+    background-color: #222f3d;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo11{
+    background-image: url("Amazon-pic.jpg");
+    background-size: cover; 
+    height: 50px;
+    width: 100px;
+    margin-bottom: 40px;
+}
